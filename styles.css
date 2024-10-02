@@ -92,3 +92,27 @@ li a:hover {
     overflow: scroll;
     padding: 5px;
 }
+
+@media (max-width: 800px) {
+    ul {
+        display: none;
+    }
+
+    .logo {
+        max-width: 75%;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .two8 {
+        font-size: 20px;
+    }
+
+    .gridc {
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 15px;
+    }
+}
